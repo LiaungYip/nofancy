@@ -4,7 +4,9 @@
         <div class="footer-content">
 		  <div class="pure-menu pure-menu-horizontal">
               <ul>
+			      {{ if .Site.Author.name }}
                   <li class="pure-menu-heading" id="foot-name">{{ .Site.Author.name }}:</li>
+                  {{ end }}
 				  <li class="pure-menu-item">
 					<a href="{{ .Site.BaseURL }}/contact/" class="pure-menu-link">Comments, questions, queries...</a>
 				  </li>
