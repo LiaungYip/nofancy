@@ -5,7 +5,9 @@
 		  <div class="pure-menu pure-menu-horizontal">
               <ul>
                   <li class="pure-menu-heading" id="foot-name">{{ .Site.Author.name }}:</li>
-          
+				  <li class="pure-menu-item">
+					<a href="{{ .Site.BaseURL }}/contact/" class="pure-menu-link">Comments, questions, queries...</a>
+				  </li>
                   {{ if .Site.Author.email }}
                   <li class="pure-menu-item">
                       <a href="mailto:{{ .Site.Author.email }}" class="pure-menu-link">Email</a>
