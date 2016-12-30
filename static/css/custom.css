@@ -203,3 +203,9 @@ body {
 		display: block;
 	}
 }
+
+blockquote {
+    border-left: 5px solid silver;
+    padding: 0.1em 1em 0.1em 1em;
+    background-color: #eee;
+}
