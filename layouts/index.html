@@ -26,7 +26,7 @@
 			{{- end -}}
 
 			{{- with $page.Params.tags -}}
-			tags:[ {{- range $page.Params.tags-}}<a href="{{- $baseurl -}}tags/{{- . | urlize -}}">{{- . -}}</a> {{- end -}}]
+			tags:[ {{- range $page.Params.tags -}}<a href="{{- $baseurl -}}tags/{{- . | urlize -}}">{{- . -}}</a> {{- end -}}]
 			{{- end -}}
 
 			{{- with $page.Params.categories -}}
